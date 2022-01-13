@@ -6,8 +6,8 @@ Begin VB.Form Form1
    ClientTop       =   465
    ClientWidth     =   4560
    LinkTopic       =   "Form1"
-   ScaleHeight     =   3015
-   ScaleWidth      =   4560
+   ScaleHeight     =   10935
+   ScaleWidth      =   20250
    StartUpPosition =   3  'Windows Default
    Begin VB.TextBox Text4 
       Height          =   285
@@ -67,5 +67,6 @@ r = Val(Text3.Text)
 si = (p * t * r) / 100
 Text4.Text = si
 
+MsgBox "nikhil "
 
 End Sub
